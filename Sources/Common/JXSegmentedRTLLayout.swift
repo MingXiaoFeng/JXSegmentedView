@@ -23,7 +23,7 @@ public extension JXSegmentedViewRTLCompatible {
     /// 在RTL布局下水平翻转当前视图
     /// - Parameter view: 需要翻转的视图
     func segmentedView(horizontalFlipForView view: UIView?) {
-        view?.transform = CGAffineTransform(scaleX: -1, y: 1)
+//        view?.transform = CGAffineTransform(scaleX: -1, y: 1)
     }
     
 }
